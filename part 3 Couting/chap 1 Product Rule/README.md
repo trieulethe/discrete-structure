@@ -13,6 +13,30 @@
 
 - Source code:  Define
 
+--------------------------------------------------------------
+
+<h3>I.  Couting Bitstrings of Length n :</h3>
+
+- Question:
+   - How many bitstrings of length n are there ?
+
+- Step procedure:
+   - The procedure is “write down a bitstring of length n”.
+   - For i = 1, 2, . . . , n, the i-th task is “write down one bit”.
+
+- Answer:
+   - There are two ways to do the i-th task, regardless of how we did the first i − 1 tasks. Therefore, we can apply the Product Rule with N i = 2 for i = 1, 2, . . . , n, and conclude that there are N1 N2 ··· Nn = 2^n ways to do the entire procedure. As a result, the number of bitstrings of length n is equal to 2^n .
+
+> Theorem: For any integer n ≥ 1, the number of bitstrings of length n
+is equal to 2^n.
+- Source code: Couting Bitstrings Length n
+
+--------------------------------------------------------------
+
+
+
+
+
 
 
 
